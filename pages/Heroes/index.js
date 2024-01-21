@@ -1,16 +1,16 @@
 import axios from './axios';
 import Link from 'next/link';
-import styles from '../../styles/Heroes.module.css'
+import styles from '../../styles/Heroes.module.scss'
 export default function Heroes({data}) {
     const { results } = data;
     const heroesList = results.map(hero => <HeroElement key={hero.id} {...hero} />)
     return (
-        <>
-            <p>Heroes</p>
+        <div className={styles.container}>
+            <p className={styles.title}>Heroes</p>
             <ul className={styles.listLI} >
                 {heroesList}
             </ul>
-        </>
+        </div>
     )
   }
   function HeroElement({id, name, url}){

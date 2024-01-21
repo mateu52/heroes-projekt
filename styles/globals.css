@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   color: black;
+  
+}
+html{
+  background-image: url('../image/dark_abstract_colors.jpg');
 }
 
 
