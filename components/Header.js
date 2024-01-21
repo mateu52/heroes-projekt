@@ -1,4 +1,13 @@
 import Link from 'next/link'
+//import styled from 'styled-components'
+//import '../style/style.scss'
+// const StyledList = styled.ul`
+//     padding: 0px;
+//     margin: 0px;
+//     display: flex;
+//     list-style: none;
+// `;
+
 export default function Layout(){
     return(
         <>

@@ -1,8 +1,9 @@
 import axios from "./axios";
+//import style from './style/style.scss';
 export default function Hero({id, name} ){
     console.log(id, name)
     return(
-        <p>hero:  {name}</p>
+        <p>hero: {name}</p>
     )
 }
 export async function getStaticPaths(){
