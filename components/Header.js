@@ -4,6 +4,7 @@ import styles from '../styles/Header.module.css'
 const StyledList = styled.ul`
     display: flex;
     list-style: none;
+    height: 60px;
 `;
 
 export default function Layout(){
