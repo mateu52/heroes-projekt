@@ -7,6 +7,9 @@
 }
 html{
   background-image: url('../image/dark_abstract_colors.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 

@@ -1,0 +1,48 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.76);
+  height: 90%;
+  width: 30%;
+  margin-left: 30px;
+  min-width: min-content;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
+  overflow: auto;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 0 10px 0;
+  border-bottom: 1px white solid;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link p {
+  padding: 3px 0 0 10px;
+}
+
+.ul_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: no-wrap;
+  font-weight: 500;
+  margin-bottom: 20px !important;
+}
+
+.li_list {
+  list-style: none;
+}
+
+.ul_list li:nth-child(even) p {
+  color: #5b3700;
+}
+
+.ul_list li:nth-child(odd) p {
+  color: #0052cd;
+}
