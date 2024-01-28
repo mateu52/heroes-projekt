@@ -37,6 +37,7 @@
 
 .li_list {
   list-style: none;
+  min-width: 300px;
 }
 
 .ul_list li:nth-child(even) p {
@@ -45,4 +46,14 @@
 
 .ul_list li:nth-child(odd) p {
   color: #0052cd;
+}
+
+@media screen and (max-width: 433px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .li_list {
+    min-width: 200px;
+  }
 }

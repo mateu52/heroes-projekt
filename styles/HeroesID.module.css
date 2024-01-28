@@ -1,0 +1,55 @@
+.container{
+    height: 90vh;
+    margin-bottom: 50px;
+}
+.container_p{
+    color: white;
+    margin: 0 0 20px 80px;
+    font-size: 24px;
+}
+.data{
+    display: flex;
+}
+.powerstats{
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+}
+.powerstats p{
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.453);
+    margin:8px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.image {
+    height: 300px;
+    width: auto;
+    margin-left: 30px;
+}
+@media screen and (max-width: 433px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_p{
+        margin: 0 0 10px 0;
+    }
+    .image{
+        /* height: 200px; */
+        width: 230px;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        margin: 1px;
+        border-radius: 10px;
+    }
+    .powerstats{
+        padding: 0 20px;
+    }
+}

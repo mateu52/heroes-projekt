@@ -5,6 +5,12 @@ const StyledList = styled.ul`
     display: flex;
     list-style: none;
     height: 60px;
+    @media (max-width: 433px) {
+        justify-content: center;
+        li{
+            margin: 0 5px;
+        }
+    }
 `;
 
 export default function Layout(){

@@ -5,5 +5,69 @@
     margin: 0 0 0 40px;
     font-size: 50px;
     color: white;
-    text-shadow: 5px 5px rgba(255, 255, 255, 0.253);
-  }
+    text-shadow: 5px 5px rgba(255, 255, 255, 0.253);}
+.form_container{
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 50px auto 0 auto;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
+.input{
+    width: 200px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.label{
+    padding-right: 47px;
+}
+.label_m{
+    padding-right: 10px;
+}
+.label_n{
+    padding-right: 54px;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.message .input{
+    height: 50px;
+    margin: 0px;
+}
+.message .label{
+    height: 50px;
+    padding-top: 1rem;
+}
+.submit{
+    height: 30px;
+    width: 70%;
+    margin: 15px 0 0 20px;
+    border-radius: 10px;
+    border: 3px solid rgba(86, 134, 255, 0.429);
+    background-color: rgb(17, 143, 253);
+    font-size: large;
+    font-weight: 500;
+}
+@media screen and (max-width: 433px) {
+    .container_p{
+        font-size: 30px;
+    }
+    .form_container{
+        margin: 30px auto 0 20px;
+    }
+    .input{
+        width: 150px;
+    }
+    .submit{
+        width: 40%;
+        background-color: rgb(80, 82, 255);
+        font-weight: 700;
+        margin: 20px auto 0 30px;
+    }
+    
+}
