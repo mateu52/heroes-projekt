@@ -21,13 +21,13 @@ export default function Hero({id, name, image, powerstats} ){
     )
 }
 export async function getStaticPaths(){
-    const { data } = await axios.get('/search/a');
-    const { results } = data;
-    const paths = results.map(({id}) => ({params: {id: id.toString()}}));
+    // const { data } = await axios.get('/search/a');
+    // const { results } = data;
+    // const paths = results.map(({id}) => ({params: {id: id.toString()}}));
 
     return {
-        paths,
-        fallback: false,
+        paths: [],
+        fallback: true,
     }
 }
 export async function getStaticProps({params}){

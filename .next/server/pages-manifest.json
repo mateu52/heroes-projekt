@@ -3,8 +3,8 @@
   "/_error": "pages/_error.js",
   "/Contact": "pages/Contact.js",
   "/Heroes/axios": "pages/Heroes/axios.js",
-  "/": "pages/index.js",
   "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.js",
   "/Heroes": "pages/Heroes.js",
   "/Heroes/[id]": "pages/Heroes/[id].js",
   "/_document": "pages/_document.js"
