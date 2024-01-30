@@ -15,7 +15,7 @@ export default function Contact() {
         setSubmitted(true)
     }
     if(submitted) {
-        return <p>Wysłano</p>
+        return <p className={styles.sended}>Wysłano</p>
     }
     return (
         <div className={styles.container}>

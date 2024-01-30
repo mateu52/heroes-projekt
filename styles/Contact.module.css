@@ -53,6 +53,9 @@
     font-size: large;
     font-weight: 500;
 }
+.sended{
+    height: 90vh;
+}
 @media screen and (max-width: 433px) {
     .container_p{
         font-size: 30px;
